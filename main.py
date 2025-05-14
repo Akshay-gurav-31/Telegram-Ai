@@ -19,7 +19,7 @@ GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Hello! I'm Tiny AI, powered by Gemini AI. Ask me anything!"
+        "Hello! I'm Tiny AI, Ask me anything!"
     )
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
